@@ -11,7 +11,7 @@ export class QuestionsService {
 
 
   public getJSON(fileId: string) {
-    return this.http.get(`./assets/math-quiz.json`) as Observable<any>;
+    return this.http.get(`./assets/${fileId}.json`) as Observable<any>;
   }
 }
 
