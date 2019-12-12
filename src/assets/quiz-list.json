@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Math",
+    "name": "math-quiz",
+    "description": "Test your math skills!",
+    "fileName": "math-quiz.json"
+  },
+  {
+    "label": "Harry Potter",
+    "name": "harry-potter-quiz",
+    "description": "Test your knowledge of the Wizarding World of Harry Potter!",
+    "fileName": "harry-potter-quiz.json"
+  }
+]

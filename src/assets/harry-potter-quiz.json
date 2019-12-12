@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Who are Harry Potter's best friends?",
+    "choices": [
+      {
+        "value": "Ron Weasley and Hermione Granger",
+        "correct": true
+      },
+      {
+        "value": "Draco and Lucius Malfoy",
+        "correct": false
+      },
+      {
+        "value": "Dudley Dursley",
+        "correct": false
+      },
+      {
+        "value": "Tom Riddle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Who tries to prevent Harry and Ron from going to Hogwarts their second year?",
+    "choices": [
+      {
+        "value": "Lucius Malfoy",
+        "correct": false
+      },
+      {
+        "value": "Dobby",
+        "correct": true
+      },
+      {
+        "value": "Voldemort",
+        "correct": false
+      },
+      {
+        "value": "Sirius Black",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Who is Harry Potter's godfather?",
+    "choices": [
+      {
+        "value": "Sirius Black",
+        "correct": true
+      },
+      {
+        "value": "Vernon Dursley",
+        "correct": false
+      },
+      {
+        "value": "Albus Dumbledore",
+        "correct": false
+      },
+      {
+        "value": "Remus Lupin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is Harry Potter's patronus?",
+    "choices": [
+      {
+        "value": "Horse",
+        "correct": false
+      },
+      {
+        "value": "Owl",
+        "correct": false
+      },
+      {
+        "value": "Frog",
+        "correct": false
+      },
+      {
+        "value": "Stag",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What is Harry Potter's owl's name?",
+    "choices": [
+      {
+        "value": "Hermione",
+        "correct": false
+      },
+      {
+        "value": "Dolores",
+        "correct": false
+      },
+      {
+        "value": "Hedwig",
+        "correct": true
+      },
+      {
+        "value": "Petunia",
+        "correct": false
+      }
+    ]
+  }
+]
