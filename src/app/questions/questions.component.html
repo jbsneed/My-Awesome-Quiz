@@ -1,6 +1,11 @@
 <div *ngIf="quiz && !questions" class="spinner-grow text-primary"></div>
 
 <mat-card *ngIf="questions">
+  <div class="back">
+    <button mat-button class="btn btn-primary">
+      <a routerLink="/welcome" class="btn btn-primary">Home</a>
+    </button>
+  </div>
 
   <div class="questions" *ngIf="!showResults">
     <app-question-form [question]="questions[currentQuestionIndex]"
@@ -8,7 +13,8 @@
     </app-question-form>
     <mat-card-actions>
       <button mat-button class="btn btn-success" (click)="nextOrViewResults()"
-        [disabled]="!answers.values[currentQuestionIndex]">{{currentQuestionIndex===questions.length - 1? 'View Results':'Next'}}</button>
+        [disabled]="!answers.values[currentQuestionIndex]">{{currentQuestionIndex===questions.length - 1? 'View Results':'Next'}}
+      </button>
     </mat-card-actions>
   </div>
 

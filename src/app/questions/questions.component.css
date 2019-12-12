@@ -12,3 +12,11 @@ mat-card{
   background-color: #000000;
   color: white;
 }
+
+a:visited{
+  color: #fff;
+}
+
+.back{
+  text-align: left;
+}
