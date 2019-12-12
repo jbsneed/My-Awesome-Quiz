@@ -1,5 +1,5 @@
 export class Quiz {
-  constructor(public label: string, public questions: Question[]) { }
+  constructor(public label: string, public name: string, public description: string, public fileName: string) { }
 }
 
 export class Choice {
