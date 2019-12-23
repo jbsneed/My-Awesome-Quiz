@@ -14,7 +14,7 @@ import { QuestionsComponent } from './questions/questions.component';
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
   { path: ':quizId', component: QuestionsComponent },
-  { path: '', redirectTo: "welcome", pathMatch: "prefix" },
+  { path: '**', redirectTo: 'welcome', pathMatch: 'full' },
 ];
 
 @NgModule({
