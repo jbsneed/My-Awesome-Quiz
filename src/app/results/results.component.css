@@ -1,0 +1,14 @@
+mat-card{
+  margin: auto;
+  text-align: center;
+  color: #66fcf1;
+  background-color: #1f2833;
+ }
+
+a:visited{
+  color: #fff;
+}
+
+mat-card-title{
+  text-decoration: underline;
+}

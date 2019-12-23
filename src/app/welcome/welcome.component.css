@@ -1,0 +1,20 @@
+mat-card {
+  margin: auto;
+  color: #66fcf1;
+  background-color: #1f2833;
+}
+
+mat-button {
+  margin: 5px;
+}
+a:visited{
+  color: #fff;
+}
+
+.title{
+  text-decoration: underline;
+}
+
+mat-card-title{
+  text-decoration: underline overline;
+}
